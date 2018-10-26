@@ -44,7 +44,7 @@ namespace UnityStandardAssets.ImageEffects
 		{
             if (!s)
 			{
-                Debug.Log ("Missing shader in " + ToString ());
+                //Debug.Log ("Missing shader in " + ToString ());
                 return null;
             }
 
