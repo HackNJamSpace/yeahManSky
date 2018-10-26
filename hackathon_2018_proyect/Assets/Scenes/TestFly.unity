@@ -6232,6 +6232,30 @@ Prefab:
       propertyPath: m_input.Mouse.ActiveArea.y
       value: 500
       objectReference: {fileID: 0}
+    - target: {fileID: 490726, guid: 34a9267cc7acc7d44b97789354cba91f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 490726, guid: 34a9267cc7acc7d44b97789354cba91f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 490726, guid: 34a9267cc7acc7d44b97789354cba91f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2098318, guid: 34a9267cc7acc7d44b97789354cba91f, type: 2}
+      propertyPath: near clip plane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 19865892, guid: 34a9267cc7acc7d44b97789354cba91f, type: 2}
+      propertyPath: InitialModule.startSizeY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19865892, guid: 34a9267cc7acc7d44b97789354cba91f, type: 2}
+      propertyPath: InitialModule.startSizeZ.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 34a9267cc7acc7d44b97789354cba91f, type: 2}
   m_IsPrefabParent: 0
