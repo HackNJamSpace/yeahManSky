@@ -50,7 +50,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Intensity
-    path: Directional Light (1)
+    path: Directional Light
     classID: 108
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -62,7 +62,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 2882937297
+      path: 2510036135
       attribute: 898800009
       script: {fileID: 0}
       typeID: 108
@@ -124,7 +124,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Intensity
-    path: Directional Light (1)
+    path: Directional Light
     classID: 108
     script: {fileID: 0}
   m_EulerEditorCurves: []
