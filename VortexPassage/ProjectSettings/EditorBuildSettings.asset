@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu/MainMenu.unity
+    guid: c0f5eae9d54e64f49bcfd5edc4223866
+  - enabled: 1
     path: Assets/Scenes/Flying/SolarSystemFly.unity
     guid: e24b325b636df2e46b0ecd5a88e0af17
   - enabled: 1
