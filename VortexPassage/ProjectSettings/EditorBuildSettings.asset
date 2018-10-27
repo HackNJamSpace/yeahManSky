@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Space Station.unity
     guid: b53078e636f9f934680821d82407cd83
   - enabled: 1
+    path: Assets/Scenes/Planets/Dry Planet Crash.unity
+    guid: c7401488a54cfe64abcf8c8309bb8f32
+  - enabled: 1
     path: Assets/Scenes/Planets/Dry_planet_scene 1.unity
     guid: 752629b5961f3be499073e7cc7b7cfb9
   - enabled: 1
@@ -30,6 +33,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Flying/AlienPlanetsFly.unity
     guid: 89163426f00f349479e4433532b49b04
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/EasyMainMenu/Scenes/LoadingScreen.unity
+    guid: 6540e3b3fcf225c4a89bee2bcc8d1682
   m_configObjects: {}
