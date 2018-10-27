@@ -14,4 +14,20 @@ public class ButtonManager : MonoBehaviour {
     {
         SceneManager.LoadScene(4);
     }
+
+    public void GoToMainMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void RetryLevel()
+    {
+        Scene loadedLevel = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(loadedLevel.buildIndex);
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }
