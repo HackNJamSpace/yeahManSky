@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SpaceStationGameController : MonoBehaviour {
 
@@ -26,7 +27,7 @@ public class SpaceStationGameController : MonoBehaviour {
 
         if (crash)
         {
-           
+            SceneManager.LoadScene(2);
         }
 	}
 }

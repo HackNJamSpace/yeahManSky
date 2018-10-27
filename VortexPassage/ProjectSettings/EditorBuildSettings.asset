@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/SpaceshipFirstScene.unity
+    guid: 89163426f00f349479e4433532b49b04
+  - enabled: 1
+    path: Assets/Scenes/Space Station.unity
+    guid: b53078e636f9f934680821d82407cd83
+  - enabled: 1
+    path: Assets/Scenes/Planets/Dry_planet_scene 1.unity
+    guid: 752629b5961f3be499073e7cc7b7cfb9
+  - enabled: 1
+    path: Assets/Scenes/Planets/Gas_planet_scene 1.unity
+    guid: 71cd9f7db8207af4ebd9af799e1d3276
+  - enabled: 1
+    path: Assets/Scenes/Planets/Ice_planet_scene 1.unity
+    guid: 1e301a2b2a97e7c449e7c9ad062b2950
+  - enabled: 1
+    path: Assets/Scenes/Planets/Lush_planet_scene 1.unity
+    guid: d0a8c47e48e8c24499b9496e2210aaf7
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects: {}

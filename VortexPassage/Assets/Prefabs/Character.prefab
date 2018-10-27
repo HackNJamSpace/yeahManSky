@@ -72,14 +72,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1841694931435230}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071067}
-  m_LocalPosition: {x: 93.98, y: 5.1, z: 53.84}
+  m_LocalRotation: {x: -0, y: 0.015993029, z: -0, w: 0.99987215}
+  m_LocalPosition: {x: 69.36, y: -15.9, z: -119.3}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 4162662333124466}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 1.8330001, z: 0}
 --- !u!20 &20460051186017948
 Camera:
   m_ObjectHideFlags: 1
@@ -289,7 +289,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1510502493248188}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7fceaeb339b971b429c4cc600acabd13, type: 3}
   m_Name: 
@@ -495,16 +495,16 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1510502493248188}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd6d4281e5d7cd44d8c6e38bc2c1b8d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mode: 0
-  intensity: 0.375
+  intensity: 1.11
   chromaticAberration: 0.2
   axialAberration: 0.5
-  blur: 0.7
+  blur: 0
   blurSpread: 0.75
   luminanceDependency: 0.25
   blurDistance: 2.5

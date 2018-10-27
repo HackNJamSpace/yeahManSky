@@ -8,7 +8,7 @@ public class ExitTriggerCollide : MonoBehaviour {
 
     private void OnTriggerEnter(Collider col)
     {
-        if (col.tag == "Player")
+        if (col.tag == "Player" && spaceController.emergency == true)
         {
             spaceController.crash = true;
         }

@@ -853,7 +853,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 113648}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -873.9, y: 4.2840853, z: -1463.8403}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 446520}
@@ -1323,8 +1323,8 @@ MonoBehaviour:
         AxisY: Horizontal
         AxisZ: Roll
         Throttle: Throttle
-      Sensitivity: 1.5
-      SensitivityOnMaxSpeed: 1
+      Sensitivity: 1
+      SensitivityOnMaxSpeed: 0.5
     Mode: 1
     Mouse:
       ActiveArea: {x: 450, y: 300}
@@ -42114,7 +42114,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -42167,7 +42167,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeZ:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
