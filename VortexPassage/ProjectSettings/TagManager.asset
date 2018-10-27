@@ -8,6 +8,8 @@ TagManager:
   - CanvasDataDisplay
   - Item
   - Controller
+  - EnterCanvasDataDisplay
+  - TextEnter
   layers:
   - Default
   - TransparentFX

@@ -1,43 +1,59 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlanetArriveController : MonoBehaviour {
 
+
+    public string planetName;
+    public int planetIndex;
     public bool isInRangeOfInteraction;
+    public GameObject canvasDisplayEnterInstruction;
+    public Text enterInstructions;
+
 
 	// Use this for initialization
 	void Start () {
-        isInRangeOfInteraction = false;
-
+        this.isInRangeOfInteraction = false;
+        
     }
 	
 	// Update is called once per frame
 	void Update () {
 
-        if (Input.GetKey("x"))
+        if (this.isInRangeOfInteraction == true)
         {
-            if (isInRangeOfInteraction)
-            {
-                print("Hell yeah");
-            }
+            canvasDisplayEnterInstruction.SetActive(true);
+            enterInstructions.text = planetName;
         }
-		
-	}
+        else if(this.isInRangeOfInteraction == false)
+        {
+            enterInstructions.text = "";
+            canvasDisplayEnterInstruction.SetActive(false);
+        }
+        if (Input.GetKey("x") && this.isInRangeOfInteraction)
+        {
+            print(planetIndex);
+            SceneManager.LoadScene(planetIndex);
+        }
 
-    private void OnTriggerEnter(Collider other)
+    }
+
+    void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
         {
-            isInRangeOfInteraction = true;
+            this.isInRangeOfInteraction = true;
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    void OnTriggerExit(Collider other)
     {
         if (other.tag == "Player")
         {
-            isInRangeOfInteraction = false;
+            this.isInRangeOfInteraction = false;
         }
     }
 }

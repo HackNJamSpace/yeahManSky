@@ -9,10 +9,14 @@ public class ButtonManager : MonoBehaviour {
     {
         SceneManager.LoadScene(1);
     }
+    public void GoToSecondFly()
+    {
+        SceneManager.LoadScene(8);
+    }
 
     public void GoToFirstPlanet()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(7);
     }
 
     public void GoToMainMenu()
