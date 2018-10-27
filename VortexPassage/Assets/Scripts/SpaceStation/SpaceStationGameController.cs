@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class SpaceStationGameController : MonoBehaviour {
@@ -8,6 +9,8 @@ public class SpaceStationGameController : MonoBehaviour {
     public bool emergency, crash;
     public GameObject emergencyLights;
     public GameObject stationObject;
+
+    public Text objectiveText;
 
 
 	// Use this for initialization
@@ -23,6 +26,11 @@ public class SpaceStationGameController : MonoBehaviour {
         {
             emergencyLights.SetActive(true);
             stationObject.GetComponent<Animator>().SetTrigger("crashed");
+            objectiveText.text = "Algo anda mal! ESCAPA!";
+        }
+        else
+        {
+            objectiveText.text = "Ve al panel de control de la nave.";
         }
 
         if (crash)
