@@ -16042,7 +16042,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11458530, guid: 2f81eb69d5a7a634c9e09dd0bc6e02dc, type: 2}
       propertyPath: m_spaceship.SpeedRange.y
-      value: 700
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 11458530, guid: 2f81eb69d5a7a634c9e09dd0bc6e02dc, type: 2}
       propertyPath: m_spaceship.Maneuverability.x
