@@ -48,7 +48,8 @@ public class TimeManager : MonoBehaviour {
         
         if(fpc == null)
         {
-            print("Player is in the ship");
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             return;
         }
         else

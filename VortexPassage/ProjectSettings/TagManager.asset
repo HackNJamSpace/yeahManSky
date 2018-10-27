@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Fire
   - CanvasDataDisplay
+  - Item
+  - Controller
   layers:
   - Default
   - TransparentFX
