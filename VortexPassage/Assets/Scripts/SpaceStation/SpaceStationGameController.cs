@@ -27,7 +27,7 @@ public class SpaceStationGameController : MonoBehaviour {
 
         if (crash)
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
 	}
 }

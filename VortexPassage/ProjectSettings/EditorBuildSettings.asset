@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SpaceshipFirstScene.unity
-    guid: 89163426f00f349479e4433532b49b04
+    path: Assets/Scenes/Flying/SolarSystemFly.unity
+    guid: e24b325b636df2e46b0ecd5a88e0af17
   - enabled: 1
     path: Assets/Scenes/Space Station.unity
     guid: b53078e636f9f934680821d82407cd83
@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Planets/Lush_planet_scene 1.unity
     guid: d0a8c47e48e8c24499b9496e2210aaf7
   - enabled: 1
+    path: Assets/Scenes/Flying/AlienPlanetsFly.unity
+    guid: 89163426f00f349479e4433532b49b04
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects: {}
